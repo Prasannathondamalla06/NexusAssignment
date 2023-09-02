@@ -1,0 +1,38 @@
+
+    /* @media (max-width:768px) {
+        .car{
+            width:100%
+        }
+        .banner4{
+         
+          flex-direction: column;
+        }
+         
+         
+      } */
+      .banner4 {
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        padding-top: 100px;
+      }
+      
+      .banner44 {
+        width: 40%;
+        height: 500px;
+        padding-left: 50px;
+        box-sizing: border-box;
+      }
+      
+      .banner444 {
+        width: 60%;
+        height: 500px;
+        box-sizing: border-box;
+      }
+      
+     
+      .banner444 img {
+        width: 100%;
+        height: auto;
+        max-width: 100%; /* Ensure images don't exceed their container */
+      }

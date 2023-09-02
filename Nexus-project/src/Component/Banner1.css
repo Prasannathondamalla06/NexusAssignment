@@ -1,0 +1,10 @@
+/* @media (max-width: 768px) {
+    .dori{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+    }
+    .bann{
+        flex-direction: row;
+    }
+  } */
