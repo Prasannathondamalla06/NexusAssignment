@@ -35,6 +35,7 @@ export default function Banner4() {
         justifyContent: "space-around",
         width: "auto",
         paddingTop: "100px",
+        paddingBottom:"100px"
       }}
     >
       <div

@@ -49,6 +49,7 @@ export default function Banner2() {
 
                 textAlign: "justify",
                 marginLeft: 50,
+                color:"black"
               }}
             >
               The well-being of your skin is the product of hydration,
@@ -73,10 +74,10 @@ export default function Banner2() {
               }}
               src={cream}
             />
-            <a href="" style={{ textDecoration: "none", paddinLeft: "30" }}>
+            <a href="" style={{ textDecoration: "none", paddinLeft: "30" ,color:"black"}}>
               Purifying Facial Cream Cleanser
             </a>
-            <p style={{ paddingLeft: "30" }}>
+            <p style={{ paddingLeft: "30",color:"black" }}>
               A daily cream Cleanser for dry skin
             </p>
           </div>
@@ -94,10 +95,10 @@ export default function Banner2() {
               }}
               src={Mandarin}
             />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none",color:"black" }}>
               Mandarin Facial Hydrating Cream
             </a>{" "}
-            <p>Rapidly absorbed lightly hydrating</p>
+            <p style={{color:"black"}}>Rapidly absorbed lightly hydrating</p>
           </div>
         </div>
         <div style={{ width: "600" }}>
@@ -112,10 +113,10 @@ export default function Banner2() {
               }}
               src={oxident}
             />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none",color:"black" }}>
               Parsley Seed Anti-Oxidant Intense Serum
             </a>
-            <p>A hydrating serum bolster skin</p>
+            <p style={{color:"black"}}>A hydrating serum bolster skin</p>
           </div>
         </div>
         <div style={{ width: "600" }}>
@@ -130,10 +131,10 @@ export default function Banner2() {
               }}
               src={parsely}
             />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none",color:"black" }}>
               Parsley Seed Anti-Oxidant Eye Cream
             </a>
-            <p>Nourishes delicate skin around the eyes</p>
+            <p style={{color:"black"}}>Nourishes delicate skin around the eyes</p>
           </div>
         </div>
         <div style={{ width: "600" }}>
@@ -148,10 +149,10 @@ export default function Banner2() {
               }}
               src={seed}
             />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none",color:"black" }}>
               Parsley Seed Facial Cleanser
             </a>
-            <p>For those in polluted urban environments</p>
+            <p style={{color:"black"}}>For those in polluted urban environments</p>
           </div>
         </div>
         <div style={{ width: "600" }}>
@@ -166,10 +167,10 @@ export default function Banner2() {
               }}
               src={triple}
             />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none",color:"black" }}>
               B Triple C Facial Balancing Gel
             </a>
-            <p>Anti-oxident gel infused with Vitamin B and C</p>
+            <p style={{color:"black"}}>Anti-oxident gel infused with Vitamin B and C</p>
           </div>
         </div>
       </Carousel>

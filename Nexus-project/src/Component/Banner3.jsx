@@ -57,6 +57,7 @@ export default function Banner3() {
 
                 textAlign: "justify",
                 marginLeft: 50,
+                color:"black"
               }}
             >
               Our range of aromatic formulations for the home are practical and
@@ -71,56 +72,56 @@ export default function Banner3() {
         <div style={{ width: 600 }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <img style={ban1} src={drops} />
-            <a href="" style={{ textDecoration: "none", paddinLeft: "30" }}>
+            <a href="" style={{ textDecoration: "none", paddinLeft: "30",color:"black" }}>
               Post-Poo Drops
             </a>
-            <p style={{ paddingLeft: "30" }}>A botanical bathroom deodoriser</p>
+            <p style={{ paddingLeft: "30" ,color:"black"}}>A botanical bathroom deodoriser</p>
           </div>
         </div>
         <div style={{ width: "600" }}>
           {" "}
           <div style={{ display: "flex", flexDirection: "column" }}>
             <img style={ban1} src={candle} />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none",color:"black" }}>
               Aganice Aromatique Candle
             </a>{" "}
-            <p>Cardamom, Mimosa, Tobacco</p>
+            <p style={{color:"black"}}>Cardamom, Mimosa, Tobacco</p>
           </div>
         </div>
         <div style={{ width: "600" }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <img style={ban1} src={candle} />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none",color:"black" }}>
               Ptolemy Aromatique Candle
             </a>
-            <p>A hydrating serum bolster skin</p>
+            <p style={{color:"black"}}> A hydrating serum bolster skin</p>
           </div>
         </div>
         <div style={{ width: "600" }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <img style={ban1} src={bronze} />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none",color:"black"}}>
               Bronze Incense Holder
             </a>
-            <p>Suited to any interior</p>
+            <p style={{color:"black"}}>Suited to any interior</p>
           </div>
         </div>
         <div style={{ width: "600" }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <img style={ban1} src={muraski} />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none" ,color:"black"}}>
               Murasaki Aromatique Incense
             </a>
-            <p>For those who favours aromas of warm spice</p>
+            <p style={{color:"black"}}>For those who favours aromas of warm spice</p>
           </div>
         </div>
         <div style={{ width: "600" }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <img style={ban1} src={muraski} />
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="" style={{ textDecoration: "none",color:"black" }}>
               Kagerou Aromatique Incense
             </a>
-            <p>For those particularly partial to view</p>
+            <p style={{color:"black"}}>For those particularly partial to view</p>
           </div>
         </div>
       </Carousel>

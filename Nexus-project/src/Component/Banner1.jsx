@@ -20,11 +20,11 @@ export default function Banner1() {
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 600 },
+      breakpoint: { max: 1024, min: 464 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 600, min: 0 },
+      breakpoint: { max: 0, min:464 },
       items: 1,
     },
   };
@@ -59,6 +59,7 @@ export default function Banner1() {
 
                 textAlign: "justify",
                 marginLeft: 50,
+                color:"black"
               }}
             >
               Aesop formulations offer the body deserving care, to cleanse,
@@ -88,46 +89,46 @@ export default function Banner1() {
           <div className="card" style={{ width: 600 }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <img style={ban1} src={nature} />
-              <a href="" style={{ textDecoration: "none" }}>
+              <a href="" style={{ textDecoration: "none",color:"black" }}>
                 Nurture Bar Soap
               </a>
-              <p>Offers a mild yet effective cleanse</p>
+              <p style={{color:"black"}}>Offers a mild yet effective cleanse</p>
             </div>
           </div>
           <div className="card" style={{ width: 600 }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <img style={ban1} className="image" src={nature1} />
-              <a href="" style={{ textDecoration: "none" }}>
+              <a href="" style={{ textDecoration: "none",color:"black" }}>
                 Polish Bar Soap
               </a>
-              <p>Offers a mild yet effective cleanse</p>
+              <p style={{color:"black"}}>Offers a mild yet effective cleanse</p>
             </div>
           </div>
           <div className="card" style={{ width: 600 }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <img style={ban1} className="image" src={nature2} />
-              <a href="" style={{ textDecoration: "none" }}>
+              <a href="" style={{ textDecoration: "none",color:"black" }}>
                 Refresh Bar Soap
               </a>
-              <p>Offers a mild yet effective cleanse</p>
+              <p style={{color:"black"}}>Offers a mild yet effective cleanse</p>
             </div>
           </div>
           <div className="card" style={{ width: 600 }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <img style={ban1} className="image" src={nature3} />
-              <a href="" style={{ textDecoration: "none" }}>
+              <a href="" style={{ textDecoration: "none",color:"black" }}>
                 Polish Bar Soap
               </a>
-              <p>Offers a mild yet effective cleanse</p>
+              <p style={{color:"black"}}>Offers a mild yet effective cleanse</p>
             </div>
           </div>
           <div className="card" style={{ width: 600 }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <img style={ban1} className="image" src={nature4} />
-              <a href="" style={{ textDecoration: "none" }}>
+              <a href="" style={{ textDecoration: "none",color:"black" }}>
                 Refresh Bar Soap
               </a>
-              <p>Offers a mild yet effective cleanse</p>
+              <p style={{color:"black"}}>Offers a mild yet effective cleanse</p>
             </div>
           </div>
        

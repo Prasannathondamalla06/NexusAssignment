@@ -16,7 +16,7 @@ export default function Header() {
       <div className="nav1">
         Trained Aesop consultations are available to provide bespoke skin care
         advise.
-        <a href="">Book a video consultation</a>
+        <a style={{color:"black"}} href="">Book a video consultation</a>
       </div>
       {/* ========================================== */}
       <div className="nav2">
